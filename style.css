@@ -1,0 +1,74 @@
+body {
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: #333;
+    text-align: center;
+}
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+header h1 {
+    margin: 0;
+    color: #d84315;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Dancing Script', cursive;
+}
+main {
+    padding: 30px;
+}
+.photo-section {
+    margin-bottom: 40px;
+}
+.photo-section h2 {
+    font-size: 1.8rem;
+    color: #444;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.photo-section img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.message {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    max-width: 600px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+.gallery img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #555;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
+}
